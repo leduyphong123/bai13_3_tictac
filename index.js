@@ -1,9 +1,9 @@
 let show = document.getElementById("show");
 let startArr = ["(.)", "(.)", "(.)", "(.)", "(.)"];
-let arr=result = [["(.)", "(.)", "(.)", "(.)", "(.)"],["(.)", "(.)", "(.)", "(.)", "(.)"],["(.)", "(.)", "(.)", "(.)", "(.)"],["(.)", "(.)", "(.)", "(.)", "(.)"],["(.)", "(.)", "(.)", "(.)", "(.)"]];
-// for (let i = 0; i < startArr.length; i++) {
-//     arr[i] = startArr;
-// }
+let arr=result = [];
+for (let i = 0; i < startArr.length; i++) {
+    arr[i] = startArr;
+}
 
 showValue();
 
